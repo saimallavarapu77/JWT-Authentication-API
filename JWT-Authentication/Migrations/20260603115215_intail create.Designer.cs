@@ -11,8 +11,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace JWT_Authentication.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20260522081723_InitialCreate")]
-    partial class InitialCreate
+    [Migration("20260603115215_intail create")]
+    partial class intailcreate
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
