@@ -1,4 +1,4 @@
-using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Design;
 using Microsoft.Extensions.Configuration;
 using System;
@@ -35,3 +35,4 @@ namespace JWT_Authentication
             return new AppDbContext(optionsBuilder.Options);
         }
     }
+}

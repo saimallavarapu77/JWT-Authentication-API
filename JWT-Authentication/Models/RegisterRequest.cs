@@ -15,3 +15,4 @@ namespace JWT_Authentication.Models
         public string Password { get; set; } = string.Empty;
     }
 }
+                    
