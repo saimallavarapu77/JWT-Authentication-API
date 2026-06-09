@@ -6,9 +6,7 @@ using JWT_Authentication.Dbcontext;
 
 namespace JWT_Authentication
 {
-    // Remove or rename this class if another DesignTimeDbContextFactory exists in the same namespace
-    // For example, rename to DesignTimeAppDbContextFactory if needed
-    public class DesignTimeAppDbContextFactory : IDesignTimeDbContextFactory<AppDbContext>
+    public class DesignTimeDbContextFactory : IDesignTimeDbContextFactory<AppDbContext>
     {
         public AppDbContext CreateDbContext(string[] args)
         {
